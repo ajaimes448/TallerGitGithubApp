@@ -74,5 +74,16 @@ fun Ejercicio() {
                 .fillMaxWidth()
                 .padding(all = 40.dp)
         )
+        Text(
+            text = "Nombre: Andres Jaimes\n " +
+                    "Edad: 21\n" +
+                    "Color Favorito: Verde\n",
+            color = Color.Black,
+            textAlign = TextAlign.Center,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(all = 40.dp)
+        )
     }
 }
