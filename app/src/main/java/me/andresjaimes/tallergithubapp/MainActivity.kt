@@ -85,5 +85,16 @@ fun Ejercicio() {
                 .fillMaxWidth()
                 .padding(all = 40.dp)
         )
+        Text(
+            text = "Mi materia favorita es Cálculo y la mayoria de lo que " +
+                    "tenga que ver con matematicas, tambien me gusta tocar piano, " +
+                    "escuchar musica y leer.",
+            color = Color.Black,
+            textAlign = TextAlign.Center,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(all = 40.dp)
+        )
     }
 }
